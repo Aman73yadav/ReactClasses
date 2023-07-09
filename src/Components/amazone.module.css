@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#nav>article{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#nav>article>.menu{
+    height: 50px;
+    width: 70%;
+    display: flex;
+}
+#nav>article>.menu>.first{
+    height: 50px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: large;
+}
+#nav>article>.menu>.second{
+    height: 50px;
+    width: 40%;
+}
+#nav>article>.menu>.second>ol{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(238, 238, 234);
+    height: 50px;
+}
+#nav>article>.menu>.second>ol>li{
+    list-style-type: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+#nav>article>.menu>.third{
+    height: 50px;
+    width: 40%;
+}
+#nav>article>.menu>.third>ol{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(238, 238, 234);
+    height: 50px;
+}
+#nav>article>.menu>.third>ol>li{
+    list-style-type: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.img{
+    background: url(./MLP.jpg);
+    max-width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    background-color: #000;
+}
